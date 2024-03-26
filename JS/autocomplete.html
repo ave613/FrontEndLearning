@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Autocomplete</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/cb07d8fa89.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="#" />
+  <style>
+    body {
+  background-color: #343a40;
+}
+
+.container {
+  margin-top: 100px;
+  max-width: 600px;
+}
+
+.autoCompleteInput {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.resultContainer {
+  background-color: #fff;
+}
+
+.productItemContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  height: 50px;
+  border-bottom: 1px solid lightgray;
+}
+
+.productName {
+  font-size: 14px;
+  width: 80%;
+}
+
+.productImage {
+  height: 80%;
+}
+.resultContainer :hover{
+background-color: #b9b9b9;
+}
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <input type="email" class="form-control autoCompleteInput" placeholder="Search products...">
+    <div class=resultContainer></div>
+  </div>
+  <script src="autocomplete.js"></script>
+</body>
+
+</html>

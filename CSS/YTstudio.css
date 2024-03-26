@@ -1,0 +1,95 @@
+body{font-family: 'Roboto', sans-serif;}
+.container{display: flex;
+flex-direction: row;
+justify-content: center;
+flex-wrap: wrap;
+background-color: #e5e3e3;}
+.column{width:375px;
+margin:20px;}
+.box{border-radius:1px;
+    padding:20px;
+background-color: white;
+margin-top: 35px;
+}
+.boxTitle{font-size: 18px;
+margin-bottom: 16px;}
+.thumbnail{width:100%;
+    margin-bottom: -4px;
+}
+.thumbnailContainer{
+    overflow: hidden;
+    height:auto;
+    border-radius: 3px;
+    margin-bottom: 18px;
+}
+.performance{
+margin-bottom: 10px;
+font-size: 13px;}
+.stat{display: flex;
+justify-content: space-between;
+padding:8px 0;
+font-size: 13px;}
+.statContainer{
+    margin-bottom:16px;
+}
+.link{color:#1c5fd4;
+    text-transform: uppercase;}
+.comment{margin-top: 15px;}
+/*secondColumn*/
+.secondColumnTitle{
+    display: flex;
+    justify-content:space-between;
+}
+.secondColumnImage{width:100%;
+    margin-bottom: 12px;}
+.fs{font-size: 13px;}
+.creator{margin-bottom:12px}
+.op{opacity:0.7;}
+/*Third Column*/
+.subscriberCount{font-size: 34px;
+}
+.cg{color:green;}
+.divider{height: 1px;
+background-color: rgb(177, 177, 177);
+margin:15px 0;}
+.summary{margin-bottom: 5px;}
+.summaryStat{display: flex;
+justify-content: space-between;
+padding: 10px 0;}
+.playlist{display:flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+.summaryContainer{margin-bottom:10px;}
+.overflowEllipsis{white-space: nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+.ffs{font-size: 12px;
+margin-left: 8px;}
+.fa-angle-left{margin-right: 20px;}
+.ffs1{margin-right:6px;
+    margin-left: 3px;
+    font-size: 12px;}
+
+/*Fourth Column*/
+.commentContainer{display:flex;
+justify-content: space-between;
+margin-top: 20px;}
+.commenterImg{border-radius: 100%;
+width:30px;
+height:30px;
+}
+.videoImg{width: 65px;
+height: 37px;}
+.com{margin-right:60px;}
+/*Sixth Column*/
+.sub{display: flex;
+padding: 15px 0;}
+.subscriberImg{border-radius: 100%;
+    width:35px;
+    height:35px;
+    margin-right: 10px;}
+.ch{margin-top:20px;} 
+.mg{margin-top: -14px;
+margin-bottom: 10px;}
