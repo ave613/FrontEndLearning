@@ -39,7 +39,7 @@ nav li a{
     color:white;
 }
 a:hover{border-bottom:2px solid rgb(244, 241, 241);
-font-size: 25px;}
+        font-size: 25px;}
 .sec1{
     height:50vh;
     background-image:url("photos/bgimage.png");
@@ -92,8 +92,6 @@ article img{
     height: 100%;
     box-shadow:6px 6px 18px 0px rgba(215, 214, 214, 0.461);
 }
-
-
 
 .layer{background: transparent;
     width: 100%;
