@@ -40,7 +40,6 @@ justify-content: space-between;
 .item{flex-basis:35%;
     text-align: center;
     box-sizing: border-box;
-    text-align: center;
     transition: 0.5s;}
 .item img{width:70%;
 height:70%;}
