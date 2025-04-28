@@ -1,0 +1,37 @@
+
+.container{
+    max-width:350px ;
+    margin:auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px hsla(0, 0%, 0%, 0.3);
+    text-align: center;
+    padding: 25px;
+}
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin: 10px 30px;
+}
+
+.checkbox-group input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+input, button{
+    margin: 10px;
+}
+button{
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(95, 74%, 37%);
+    font-size: 1.2rem;
+    padding: 5px 12px;
+    color: white;
+}
+button:hover{
+    background-color:  hsl(95, 74%, 47%);
+}
+#myPassword{
+    font-size: 1.2rem;
+    font-weight: bold;
+}

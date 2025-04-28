@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="randomPW.css">
+  </head>
+  <body>
+    <div class="container">
+        <h1>Password Generator</h1>
+        <label for="myLength">Length:</label>
+        <input type="number" min="1" value="0" id="myLength" /><br />
+        
+        <div class="checkbox-group">
+          <input type="checkbox" id="lower" />
+          <label for="lower">Include lowercase characters</label>
+        </div>
+        
+        <div class="checkbox-group">
+          <input type="checkbox" id="upper" />
+          <label for="upper">Include uppercase characters</label>
+        </div>
+        
+        <div class="checkbox-group">
+          <input type="checkbox" id="num" />
+          <label for="num">Include numbers</label>
+        </div>
+        
+        <div class="checkbox-group">
+          <input type="checkbox" id="sym" />
+          <label for="sym">Include symbols</label>
+        </div>
+        
+        <button onclick="generatePassword()">Submit</button><br />
+        <label id="myPassword"></label>
+        <script src="randomPW.js"></script>
+      </div>
+      
+    </div>
+  </body>
+</html>

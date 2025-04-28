@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <div>
+    <button id="myButton">Hide</button>
+   </div>
+    <img src="images/mycar.png" id="myImg" width="400px" >
+    <script>
+        const myButton=document.getElementById("myButton");
+        const myImg=document.getElementById("myImg");
+        document.addEventListener("click",event=>{
+
+            if(myImg.style.display==="none"){ //myImg.style.visibility==="hidden"
+                myImg.style.display="block";
+                myButton.textContent="Hide";
+            }
+           else{
+            myImg.style.display="none";
+            myButton.textContent="Show";
+           }
+        })
+    </script>
+</body>
+</html>
